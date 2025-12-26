@@ -35,6 +35,7 @@ function Catalog() {
 
     useEffect(() => {
         chooseClothes(currSection, "all");
+        window.scrollTo(0, 0);
         setStateLoader(true);
         const timer = setTimeout(() => setStateLoader(false), 500);
         return () => clearTimeout(timer);
