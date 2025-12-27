@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { data } from "./slidesData";
+import './style.css';
 
 function Slides() {
     const [person, setPerson] = useState(0);

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function SlideItem({item}) {
+function SectionItem({item}) {
     return (
         <div className="container">
             <Link to={`/${item.section}`} className="menuLink">
@@ -13,4 +13,4 @@ function SlideItem({item}) {
     )
 }
 
-export default SlideItem;
+export default SectionItem;

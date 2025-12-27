@@ -1,7 +1,8 @@
 import imgWoman from '../attach/sections/sctn1.avif';
 import imgMan from '../attach/sections/sctn2.avif';
 import imgChild from '../attach/sections/sctn3.avif';
-import SlideItem from './SlideItem';
+import SectionItem from './SectionItem';
+import './style.css';
 
 const sectionsArray = [
     {
@@ -31,7 +32,7 @@ function Sections() {
 
             <div className="menuParent">
                 {sectionsArray.map((item, index) => (
-                    <SlideItem key={index} item={item} />
+                    <SectionItem key={index} item={item} />
                 ))}
             </div>
 

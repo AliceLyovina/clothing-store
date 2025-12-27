@@ -35,8 +35,6 @@ h1 {
     text-align: center;
 }
 
-
-/* NAVBAR */
 nav {
     display: flex;
     justify-content: flex-start;
@@ -62,8 +60,6 @@ nav {
     color: #ffd864;
 }
 
-
-/* MAIN_IMG */
 .mainImgCont {
     display: flex;
     justify-content: center;
@@ -74,256 +70,6 @@ nav {
 }
 
 
-/* SLIDES */
-.sldGeneral {
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    margin-top: 10px;
-}
-.sldSecond {
-    position: relative;
-}
-.sldImg {
-    width: 100%;
-}
-.sldBtn {
-    color: gray;
-    background: none;
-    border: none;
-    font-size: 40px;
-    width: 100px;
-    height: 100%;
-    cursor: pointer;
-}
-.sldBtn:hover {
-    color: #ebebeb;
-}
-.sldMoveOne {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-.sldMoveTwo {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-
-/* SECTIONS */
-.menuParent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.menuLink {
-    text-decoration: none;
-}
-.menuElement {
-    padding: 10px;
-}
-.menuImg {
-    width: 500px;
-    height: 750px;
-    border: #212529 5px solid;
-}
-.menuImgTest {
-    border: #212529 5px solid;
-}
-.menuHeading {
-    background-color: #212529;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    margin: 0;
-}
-.menuElement:hover .menuHeading {
-    background-color: black;
-}
-.menuElement:hover .menuImg {
-    border: black 5px solid;
-}
-
-
-/* CATALOG */
-.clothesParent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.clothesElement {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    max-width: 550px;
-}
-.clothesImg {
-    width: 500px;
-    height: 700px;
-    overflow: hidden;
-    border: #212529 5px solid;
-}
-.clothesDesc {
-    text-align: center;
-}
-.clothesParentContainer {
-    display: flex;
-}
-
-
-/* CATALOG_ITEM */
-.catalogBtns {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.catalogBtnQntBlock {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #585858;
-    font-size: 20px;
-    color: #cececeff;
-    border-radius: 7px;
-    border: none;
-}
-.catalogBtnQntBlock:active {
-    background-color: #797979;
-}
-.catalogBtnQnt {
-    background-color: transparent;
-    border: none;
-    color: #cececeff;
-    padding: 14px 15px;
-}
-.catalogBtnCart {
-    background-color: #212429;
-    color: #cececeff;
-    padding: 14px 30px;
-    margin-left: 10px;
-    border-radius: 7px;
-    border: none;
-}
-.catalogBtnCart:active {
-    background-color: #8b6a17;
-}
-
-
-/* BUTTONS */
-.change {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    width: 100px;
-    border: none;
-    margin: 10px;
-    font-family: "Montserrat", sans-serif;
-}
-.btnContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-
-/* CART */
-.cartContainer {
-    padding: 30px;
-    margin-top: 10px;
-    width: 90%;
-    border-radius: 20px;
-    background: linear-gradient(to right,#212529,#595c5f) no-repeat;
-}
-.cartText {
-    color: #cececeff;
-}
-.cartBlock {
-    width: 100%;
-}
-.cartItogBlock {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.clearCartBlock {
-    margin-right: 20px;
-}
-
-
-/* CART_ITEMS */
-.cartItemsContainer {
-    display: flex;
-    justify-content: start;
-    width: 40%;
-}
-.cartImgBlock {
-    padding: 10px;
-}
-.cartImg {
-    border: rgba(206, 206, 206, 0.4) 2px solid;
-    border-radius: 5px;
-}
-.cartDesc {
-    padding-left: 10px;
-    width: 100%;
-}
-.cartPrice {
-    display: flex;
-    justify-content: space-between;
-}
-.icon {
-    width: 25px;
-    color: #cececeff;
-}
-
-
-/* DELIVERY */
-.deliveryParent {
-    padding: 30px;
-    margin-top: 10px;
-    width: 90%;
-    border-radius: 20px;
-    background: linear-gradient(to right,#212529,#595c5f) no-repeat;
-}
-.deliveryBlock {
-    display: flex;
-    justify-content: space-evenly;
-}
-.deliveryElement {
-    text-align: center;
-    width: 30%;
-    padding: 25px;
-}
-.deliveryTitle {
-    color: #cececeff;
-}
-.deliveryText {
-    color: #cececeff;
-}
-
-
-/* CONTACTS */
-.contactParent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.contactElement {
-    padding: 25px;
-    max-width: 550px;
-    text-align: center;
-}
-.contactImg {
-    width: 100%;
-}
-
-
-/* 1200 */
 @media all and (max-width : 1200px) {
 h1 {
     font-size: 50px;
@@ -340,43 +86,8 @@ h1 {
 .mainImg {
     width: 80%;
 }
-.menuImg {
-    width: 400px;
-    height: 560px;
-}
-/* SLIDES */
-.clothesElement {
-    max-width: 450px;
-}
-.clothesImg {
-    width: 400px;
-    height: 560px;
-}
-/* CART */
-.cartContainer {
-    width: 85%;
-}
-/* CART_ITEMS */
-.cartItemsContainer {
-    width: 70%;
-}
-/* DELIVERY */
-.deliveryParent {
-    width: 85%;
-}
-.deliveryTitle {
-    font-size: 20px;
-}
-.deliveryText {
-    font-size: 15px;
-}
-/* CONTACTS */
-.contactElement {
-    max-width: 400px;
-}
 }
 
-/* 950 */
 @media all and (max-width : 950px) {
 nav {
     flex-direction: column;
@@ -384,23 +95,6 @@ nav {
 }
 }
 
-/* 800 */
-@media all and (max-width : 800px) {
-/* DELIVERY */
-.deliveryParent {
-    width: 80%;
-}
-.deliveryBlock {
-    flex-direction: column;
-    align-items: center;
-}
-.deliveryElement {
-    width: 90%;
-}
-}
-
-
-/* 500 */
 @media all and (max-width : 500px) {
 h1 {
     font-size: 40px;
@@ -410,55 +104,5 @@ h1 {
 }
 .mainImg {
     width: 90%;
-}
-.menuImg {
-    width: 300px;
-    height: 420px;
-}
-/* SLIDES */
-.sldBtn {
-    width: 80px;
-}
-.clothesElement {
-    max-width: 350px;
-}
-.clothesImg {
-    width: 300px;
-    height: 420px;
-}
-/* CATALOG_ITEM */
-.catalogBtnQnt {
-    padding: 10px 12px;
-}
-.catalogBtnCart {
-    padding: 12px 20px;
-}
-/* BUTTONS */
-.btnContainer {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-/* CART */
-.cartContainer {
-    width: 80%;
-}
-/* CART_ITEMS */
-.cartItemsContainer {
-    width: 95%;
-}
-/* DELIVERY */
-.deliveryParent {
-    width: 80%;
-}
-.deliveryBlock {
-    flex-direction: column;
-    align-items: center;
-}
-.deliveryElement {
-    width: 90%;
-}
-/* CONTACTS */
-.contactElement {
-    max-width: 300px;
 }
 }

@@ -1,3 +1,5 @@
+import './style.css';
+
 function About() {
     return (
         <div className="container">

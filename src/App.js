@@ -2,9 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Shop from './Shop';
 import Catalog from './catalog/Catalog';
-import Delivery from './Delivery';
-import About from './About';
+import Delivery from './delivery/Delivery';
+import About from './about/About';
 import Cart from './cart/Cart';
+import NotFound from './NotFound';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Link to="/cart" className="link">Корзина</Link>
         </nav>
         <Routes>
-          <Route path="*" element={<Shop />} />
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Shop />} />
           <Route path="/women" element={<Catalog />} />
           <Route path="/men" element={<Catalog />} />

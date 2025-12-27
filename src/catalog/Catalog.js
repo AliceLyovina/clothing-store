@@ -4,6 +4,7 @@ import { data, womenList, menList, childrenList } from "./clothesData";
 import Buttons from "./Buttons";
 import CatalogItem from "./CatalogItem";
 import LoaderPage from "../loader/LoaderPage";
+import './style.css';
 
 function Catalog() {
     const [clothes, setClothes] = useState(data);

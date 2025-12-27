@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearCart, getCartItems, getTotalPrice, getTotalQuantity } from "../redux/cartSlice";
 import CartItems from "./CartItems";
 import iconClearCart from '../attach/icons8-clear-shopping-cart-60.png';
+import './style.css';
 
 const Cart = () => {
     const cartItems = useSelector(getCartItems);

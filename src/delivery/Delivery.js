@@ -1,3 +1,5 @@
+import './style.css';
+
 function Delivery() {
     return (
         <div className="container">
